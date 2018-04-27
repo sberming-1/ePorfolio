@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="game_container">
+            <div class="status">
+                <div class="mines">
+                    <img id="mine_0" src="images/number/number0.gif"><!--
+                    --><img id="mine_1" src="images/number/number0.gif"><!--
+                    --><img id="mine_2" src="images/number/number0.gif">
+                </div>
+                <div class="face">
+                    <img src="images/face/facesmile.gif">
+                </div>
+                <div class="time">
+                    <img id="time_0" src="images/number/number0.gif"><!--
+                    --><img id="time_1" src="images/number/number0.gif"><!--
+                    --><img id="time_2" src="images/number/number0.gif">
+                </div>
+            </div>
+            <div class="board">
+                <table>
+                    <tbody></tbody>
+                </table>
+            </div> <!-- game-container -->
+        </div>
+        <div class="options">
+                <label>
+                    Mines
+                    <input type="number" name="mines" min="15" max="100" placeholder="15-100">
+                </label>
+        </div>
+        <script src="jquery-3.2.1.min.js"></script>
+        <script src="minesweeper.js"></script>
+    </body>    
+</html>

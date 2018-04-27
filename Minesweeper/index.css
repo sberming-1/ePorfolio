@@ -1,0 +1,79 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    line-height: 1;
+    background-color: #fafafa;
+    width: 261px;
+    margin: 0 auto;
+}
+.options{
+    padding: 15px 10px 5px 10px;
+    font-size: 17px;
+    text-align:left;
+    position: relative;
+}
+.options input {
+    width: 70px;
+    padding-left: 5px;
+    outline: 0;
+    -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+             border-radius: 5px;
+}
+.game-container {
+    background-color: #c0c0c0;
+    border-top: 2px solid #fcfcfc;
+    border-left: 2px solid #fcfcfc;
+    border-bottom: 2px solid #777;
+    border-right: 2px solid #777;
+    padding: 6px;
+}
+
+.board {
+    border-top: 2px solid #777;
+    border-left: 2px solid #777;
+    border-bottom: 2px solid #fcfcfc;
+    border-right: 2px solid #fcfcfc;
+}
+td img {
+    display: block;
+}
+
+.status {
+    position: relative;
+    padding: 3px 5px 0px 5px;
+    margin-bottom: 6px;
+    border-top: 2px solid #777;
+    border-left: 2px solid #777;
+    border-bottom: 2px solid #fcfcfc;
+    border-right: 2px solid #fcfcfc;
+}
+.status .mines,
+.status .time {
+    position: absolute;
+}
+.status .mines {
+    top: 4px;
+}
+.status .time {
+    top: 4px;
+    right: 5px;
+}
+.status .face {
+    text-align: center;
+}
