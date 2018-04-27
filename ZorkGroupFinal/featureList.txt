@@ -1,0 +1,8 @@
+NPC - Your first NPC encounter happens in the Great Hall where you first enter the dungeon. To interact with the Sorting Hat type ’talk SortingHat’ it will respond with a culture reference that contains some good advice.
+
+Locked/Unlock Exits - To see a locked door, from the Great Hall, enter the ‘d’ command to go down then enter the ‘w’ command to try to go west. It will only let you pass if you have the Key item in your inventory which you receive for killing the Troll.
+
+Attack - Follow the Sorting Hats advice and set out to find the Sword. To find it simply go up (type ’u’) from the Great Hall where you start. here you will find a Sword and a magicWand. Enter the ‘take Sword’ command to pick up the sword. Then go down twice using the ‘d’ command two times. Here you will encounter the Troll. Fighting the Troll will lower your health so first type ‘health’ to make sure you aren’t close to dying (You should be fine, provided you follow these instructions). To attack the Troll enter the command ‘attack Troll’. It will respond with a message and you can check your health to see that it was lowered and combat was successful, however Trolls are strong so it isn’t dead yet. Enter the ‘attack Troll’ command again to slay the Troll and receive the key which will automatically be put in your inventory. It will be needed to unlock the Library.
+
+
+
